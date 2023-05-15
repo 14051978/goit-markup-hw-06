@@ -876,7 +876,7 @@ color: #2E2F42;
  }
  .footer-form{
     display: flex;
-    flex-direction: row;
+    
     
     
  }
@@ -888,18 +888,20 @@ color: #2E2F42;
     border-radius: 4px;
     margin-left: 80px;
     position: absolute;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
 
  }
  .sub-input{
+    display:inline-flex;
+    flex-direction: row;
     position: absolute;
     top: 0;
     left: 0;
     gap: 16px;
     align-items: center;
-    flex-direction: row;
+    
     width: 264px;
     height: 40px;
     background-color: transparent;
@@ -910,6 +912,7 @@ color: #2E2F42;
     align-items: center;
     justify-content: center;
     margin-left:80px;
+    margin-bottom: 16px;
     position: relative;
     top: 0;
     left: 0;
@@ -922,14 +925,21 @@ color: #2E2F42;
 
     color: #FFFFFF;
  }
- 
-    
-    
+ .footer-wrapper{
+   display: block;
  }
-.sub-button{
+    
+    
 
+.sub-button{
+display:inline-flex;
 flex-direction: row;
+padding: 8px 24px;
+margin-left: auto;
+background-color: var(--accent-color);
+border-radius: 4px;
 }
+
 
  
  
